@@ -124,4 +124,7 @@ dist
 # TernJS port file
 .tern-port
 
+### web-bundles
 
+# WebBundles
+*.wbn
