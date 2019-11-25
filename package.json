@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "wbn": "^0.0.3"
+  },
+  "private": true,
+  "scripts": {
+    "dump-bundle": "docker-compose run --rm main dump-bundle",
+    "gen-bundle": "docker-compose run --rm main gen-bundle",
+    "sign-bundle": "docker-compose run --rm main sign-bundle"
+  }
+}

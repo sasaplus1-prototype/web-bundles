@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  main:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: sasaplus1-prototype/web-bundles
+    init: true
+    volumes:
+      - .:/root
+      - /root/go
+    command:
+      - bash
+    tty: true
